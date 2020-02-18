@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        android:id="@+id/layout_image_profile"
+        android:background="@drawable/bg_profile"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/default_photo"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="94dp" />
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".... .... ...."
+            android:gravity="center"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:textColor="@color/tabtextcolor"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/layout_image_profile"
+        android:layout_marginTop="10dp"
+        android:id="@+id/layout_profile_info"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:id="@+id/profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_alternate_email_black_18dp"
+            android:drawablePadding="6dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/profile_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_directions_black_18dp"
+            android:drawablePadding="6dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/profile_telephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telephone"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_call_black_18dp"
+            android:drawablePadding="6dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            >
+
+
+        <Button
+            android:id="@+id/profile_btn_logout"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:background="@drawable/profile_button_logout"
+            />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/profile_btn_update"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:background="@drawable/profile_button_edit"
+            />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="tabtextcolor">#fff</color>
+    <color name="tabindicatorcolor">#2d2d2d</color>
+    <color name="colorPrimaryText">#050505</color>
+
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#FFDEDADA</color>
+    <color name="material_grey">#616161</color>
+    <color name="widePosterBG">#ddd</color>
+    <color name="category_title">#4c4c4c</color>
+    <color name="cityBG">#f1f5f8</color>
+    <color name="dark">#55464646</color>
+</resources>

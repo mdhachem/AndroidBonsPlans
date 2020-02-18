@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_radius">2dp</dimen>
+    <dimen name="dim_places_thumbnail">130dp</dimen>
+    <dimen name="padding_places_name">5dp</dimen>
+    <dimen name="margin_places_start_rating">5dp</dimen>
+    <dimen name="margin_places_top_ratings">2dp</dimen>
+    <dimen name="padding_places_address">5dp</dimen>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/send_message_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/ic_close_black_24dp" />
+
+
+        <EditText
+            android:id="@+id/update_profile_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="firstname"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/update_profile_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="lastname"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/update_profile_addresse"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="address"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/update_profile_telephone"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="telephone"
+            android:textColorHint="#000" />
+
+
+
+
+        <Button
+            android:id="@+id/update_profile_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:textStyle="bold"
+
+            />
+
+
+    </LinearLayout>
+    

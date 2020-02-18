@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <EditText
+                android:id="@+id/search_category"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/app_what_are_you_looking_for"
+                android:drawableLeft="@drawable/baseline_search_black_18dp"
+                android:drawablePadding="6dp"
+                />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_search_category"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="@string/app_search"
+                android:textAllCaps="false"
+                android:background="#004dda"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plans :"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#55555e"
+            />
+
+        <ListView
+            android:id="@+id/list_catgeory_plans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></ListView>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

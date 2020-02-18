@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">BON PLAN APP</string>
+    <string name="app_welecome">Welcome To</string>
+    <string name="app_email">Email</string>
+    <string name="app_password">Password</string>
+    <string name="app_sign_in">Sign In</string>
+    <string name="app_not_having_an_account">Not Having an Account ?</string>
+    <string name="app_register">Sign Up</string>
+    <string name="app_forgot_password">Forgot your Password ?</string>
+    <string name="app_first_name">First Name</string>
+    <string name="app_last_name">Last Name</string>
+    <string name="app_already_have_a_account">Already Having an Account ?</string>
+    <string name="app_log_in">Log In</string>
+    <string name="app_reset_password">Reset Password</string>
+    <string name="app_empty_email">Email Empty</string>
+    <string name="app_empty_password">Password Empty</string>
+    <string name="app_empty_first_name">First Name Empty</string>
+    <string name="app_empty_last_name">Last Name Empty</string>
+    <string name="app_what_are_you_looking_for">What are you looking for...</string>
+    <string name="app_search">Search</string>
+    <string name="app_home">Home</string>
+    <string name="app_profile">Profile</string>
+    <string name="app_event">Event</string>
+    <string name="app_no_internet_connection">No Internet Connection</string>
+
+
+    <string name="recent_news">Da Nang International Fireworks Festival 2017</string>
+    <string name="in_news">Da Nang International Fireworks Festival 2017Update: Dec 08, 2016 (TITC) - Da Nang International Fireworks Festival 2017 (DIFF 2017) with the theme “Shining Marble Mountains” will take place for two months, from 29 April to 24 June 2017 with the aim to Da Nang become a unique cultural festival tourism space. </string>
+    <string name="publish_date">2017-04-30 12:13:14</string>
+    <string name="app_invalid_email_or_password">Invalid Email Or Password</string>
+    <string name="app_invalid_email">Invalid Email</string>
+    <string name="app_password_less_than">Password less than 6</string>
+    <string name="app_product">Product</string>
+    <string name="app_not_have_access">Not Have Access</string>
+</resources>
